@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dp{
+    margin: 5px 30px;
+}
+.dp img{
+    width: 40px;
+    margin: 1px 10px;
+}
+
+
+ul{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
