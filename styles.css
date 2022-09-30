@@ -112,6 +112,12 @@ ul{
     font-family: 'Poppins', sans-serif;
 }
 
+.texts{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
 
 
 
