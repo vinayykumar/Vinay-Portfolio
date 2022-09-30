@@ -31,7 +31,7 @@ ul{
 .navbar ul li a{
     display: block;
     text-decoration: none;
-    padding: 40px;
+    padding: 20px 40px;
     color: white;
 }
 
@@ -47,4 +47,57 @@ ul{
     height: 100%;
     width: 100%;
     z-index: -1;
+}
+
+
+
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+.intro::before{
+    content: "";
+    position: absolute;
+    background-color:#D4ECDD;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#hello{
+    font-size: 4vw;
+    color: black;
+    padding: 3px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 10vw;
+}
+#ui{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 340px;
+    left: 120px;
+    font-size: 1.5vw;
+}
+#name{
+    padding-top: 12px;
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 140px;
+}
+
+.illustration{
+    width: 53vw;
+    position: absolute;
+    top: 200px;
+    right: 5vw;
 }
