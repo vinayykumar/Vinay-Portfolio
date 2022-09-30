@@ -17,6 +17,11 @@
     margin: 1px 10px;
 }
 
+.vinay{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 25px;
+}
 
 ul{
     display: flex;
@@ -31,8 +36,9 @@ ul{
 .navbar ul li a{
     display: block;
     text-decoration: none;
-    padding: 20px 40px;
+    padding: 5px 40px;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar ul li a:hover{
@@ -56,7 +62,7 @@ ul{
 .intro{
     display: flex;
     flex-direction: column;
-    height: 618px;
+    height: 560px;
     font-family: 'Poppins', sans-serif;
     align-items: center;
 }
@@ -101,6 +107,13 @@ ul{
     top: 200px;
     right: 5vw;
 }
+
+.hello,.ui,.name{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 
 /* .knowme{
    align-items: center;
@@ -151,6 +164,11 @@ ul{
     border-radius: 19px;
     background-color: rgb(238, 234, 234);
 }
+
+.cards:hover{
+    background-color: #D4ECDD;
+}
+
 .cards img{
     height: 200px;
     display: block;
@@ -172,7 +190,7 @@ ul{
 
 .about{
     background-color: #D4ECDD;
-    height: 300px;
+    height: 500px;
 }
 .head{
     font-size: 3rem;
