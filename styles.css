@@ -187,13 +187,13 @@ ul{
     font-family: 'Poppins', sans-serif;
 }
 
-.Projects{
+#Projects{
     background-color:#252525;
     height: 700px;
     z-index: -1;
 }
 
-.about{
+#about{
     background-color: #D4ECDD;
     height: 310px;
 }
@@ -216,8 +216,10 @@ ul{
 
 .foot{
     background-color: #252525;
-    height: 200px;
+    height: 45px;
+    
 }
+
 .foot p{
     color: white;
 }
@@ -227,3 +229,24 @@ ul{
     text-decoration: none;
     list-style-type: none;
 }
+
+.footer{
+    display: flex;
+    position: absolute;
+    align-items:center;
+    justify-content: center;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.git{
+    position: absolue;
+    top: auto;
+    left: 50px;
+}
+
+
+
+

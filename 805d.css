@@ -1,10 +1,6 @@
-.works{
-    flex-direction: column;
-}
-
 #about{
     position: absolute;
-    top: 1900px;
+    top: 2200px;
 }
 
 .foot{
@@ -12,9 +8,5 @@
     height: 45px;
     position: absolute;
     background-color: black;
-    top: 2200px;
-}
-
-#Projects{
-    height: 1300px;
+    top: 3000px;
 }
