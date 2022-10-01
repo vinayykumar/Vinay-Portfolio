@@ -82,7 +82,7 @@ ul{
     font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 200px;
-    left: 10vw;
+    left: 135px;
 }
 #ui{
     padding: 20px;
@@ -245,6 +245,10 @@ ul{
     position: absolue;
     top: auto;
     left: 50px;
+}
+
+.footer img{
+    padding: 0px 40px;
 }
 
 
