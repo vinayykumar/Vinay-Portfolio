@@ -120,7 +120,6 @@ ul{
 
 
 
-
 /* .knowme{
    align-items: center;
 } */
@@ -196,7 +195,7 @@ ul{
 
 .about{
     background-color: #D4ECDD;
-    height: 500px;
+    height: 310px;
 }
 .head{
     font-size: 3rem;
@@ -222,4 +221,9 @@ ul{
 .foot p{
     color: white;
 }
-    
+
+
+.templist{
+    text-decoration: none;
+    list-style-type: none;
+}
